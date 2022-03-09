@@ -6,9 +6,11 @@
 Addon CSS Library for Bootstrap by KLA6
 
 ## Version & CDN
-Ver. 1.0.0
-- `https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/1.0.0/more_bootstrap.css`
-- `https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/1.0.0/more_bootstrap.min.css`
+Version 1.0.0
+```
+https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/1.0.0/more_bootstrap.css
+https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/1.0.0/more_bootstrap.min.css
+```
 
 ## Purpose
 ...
