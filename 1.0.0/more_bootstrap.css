@@ -177,8 +177,6 @@
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ARTICLE */
 
-.k6-article { width: 100%; min-width: 100%; max-width: 100%; display: grid; } /* 내용 폭 오버플로우 방지 목적 디스플레이 그리드 삭제 금지 */
-
 .k6-article h1,
 .k6-article h2,
 .k6-article h3,
