@@ -5,10 +5,13 @@
 # More Bootstrap
 Addon CSS Library for Bootstrap by KLA6
 
-## Version & CDN
-
-### Version 1.0.0
+## Purpose
 ...
 
-## Purpose
+## Version & CDN
+
+### Version 1.0.1
+...
+
+### Version 1.0.0
 ...
