@@ -6,7 +6,7 @@
 When using plain Bootstrap itself, you may need some additional classes, and this is a CSS library which implements the minimum of them.
 
 ## Type
-CSS Library
+- CSS Library
 
 ## Info
 - More Bootstrap doesn't include the original Bootstrap, so you need to call Bootstrap first, before calling More Bootstrap.
