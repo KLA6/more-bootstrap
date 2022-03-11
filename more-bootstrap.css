@@ -27,7 +27,9 @@
 .k6-m-n2 { margin:  -.5rem; } .k6-mx-n2 { margin-left:  -.5rem; margin-right:  -.5rem; } .k6-my-n2 { margin-top:  -.5rem; margin-bottom:  -.5rem; } .k6-mt-n2 { margin-top:  -.5rem; } .k6-me-n2 { margin-right:  -.5rem; } .k6-mb-n2 { margin-bottom:  -.5rem; } .k6-ms-n2 { margin-left:  -.5rem; }
 .k6-m-n3 { margin:   -1rem; } .k6-mx-n3 { margin-left:   -1rem; margin-right:   -1rem; } .k6-my-n3 { margin-top:   -1rem; margin-bottom:   -1rem; } .k6-mt-n3 { margin-top:   -1rem; } .k6-me-n3 { margin-right:   -1rem; } .k6-mb-n3 { margin-bottom:   -1rem; } .k6-ms-n3 { margin-left:   -1rem; }
 
-.k6-my-n3px { margin-top: -3px; margin-bottom: -3px; } /* 38 (form-control) - 3 - 3 = 32 */
+.k6-my-1px { margin-top: 1px; margin-bottom: 1px; } .k6-my-n1px { margin-top: -1px; margin-bottom: -1px; }
+.k6-my-2px { margin-top: 2px; margin-bottom: 2px; } .k6-my-n2px { margin-top: -2px; margin-bottom: -2px; }
+.k6-my-3px { margin-top: 3px; margin-bottom: 3px; } .k6-my-n3px { margin-top: -3px; margin-bottom: -3px; } /* 38 (form-control) - 3 - 3 = 32 */
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== WIDTH HEIGHT */
 
@@ -97,6 +99,8 @@
            .k6-btn-li::after                       { transform-origin: .5em 50%; transition: none; position: absolute; right: 0; width: 1.25em; line-height: 0; content: url( "data:image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%28   0,   0,   0, .1 %29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e" ); }
 .text-light.k6-btn-li::after                       {                                                                                                            content: url( "data:image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%28 255, 255, 255, .1 %29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e" ); }
 
+/* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== DROPDOWN */
+
 @media( min-width:  576px ) { .k6-dropdown-toggle-sm  { white-space: nowrap; } .k6-dropdown-toggle-sm::after  { display: inline-block; margin-left: 0.255em; vertical-align: 0.255em; content: ""; border-top: 0.3em solid; border-right: 0.3em solid transparent; border-bottom: 0; border-left: 0.3em solid transparent; } }
 @media( min-width:  768px ) { .k6-dropdown-toggle-md  { white-space: nowrap; } .k6-dropdown-toggle-md::after  { display: inline-block; margin-left: 0.255em; vertical-align: 0.255em; content: ""; border-top: 0.3em solid; border-right: 0.3em solid transparent; border-bottom: 0; border-left: 0.3em solid transparent; } }
 @media( min-width:  992px ) { .k6-dropdown-toggle-lg  { white-space: nowrap; } .k6-dropdown-toggle-lg::after  { display: inline-block; margin-left: 0.255em; vertical-align: 0.255em; content: ""; border-top: 0.3em solid; border-right: 0.3em solid transparent; border-bottom: 0; border-left: 0.3em solid transparent; } }
@@ -105,11 +109,11 @@
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== OPACITY */
 
-.k6-opacity-100-hover:hover { opacity: 1    !important; }
-.k6-opacity-75-hover:hover  { opacity:  .75 !important; }
-.k6-opacity-50-hover:hover  { opacity:  .5  !important; }
-.k6-opacity-25-hover:hover  { opacity:  .25 !important; }
-.k6-opacity-0-hover:hover   { opacity: 0    !important; }
+.k6-opacity-100-hover:hover { opacity: 1   !important; }
+.k6-opacity-75-hover:hover  { opacity: .75 !important; }
+.k6-opacity-50-hover:hover  { opacity: .5  !important; }
+.k6-opacity-25-hover:hover  { opacity: .25 !important; }
+.k6-opacity-0-hover:hover   { opacity: 0   !important; }
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== BORDER OUTLINE */
 
@@ -148,20 +152,20 @@
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== Z-INDEX */
 
-.k6-z-n2                 { z-index:   -2; }
-.k6-z-n1                 { z-index:   -1; }
-.k6-z-0                  { z-index:    0; }
-.k6-z-1                  { z-index:    1; }
-.k6-z-2                  { z-index:    2; }
-.k6-z-dropdown           { z-index: 1000; }
-.k6-z-sticky             { z-index: 1020; }
-.k6-z-fixed              { z-index: 1030; }
-.k6-z-offcanvas-backdrop { z-index: 1040; }
-.k6-z-offcanvas          { z-index: 1045; }
-.k6-z-modal-backdrop     { z-index: 1050; }
-.k6-z-modal              { z-index: 1055; }
-.k6-z-popover            { z-index: 1070; }
-.k6-z-tooltip            { z-index: 1080; }
+.k6-z-n2                 { z-index:   -2 !important; }
+.k6-z-n1                 { z-index:   -1 !important; }
+.k6-z-0                  { z-index:    0 !important; }
+.k6-z-1                  { z-index:    1 !important; }
+.k6-z-2                  { z-index:    2 !important; }
+.k6-z-dropdown           { z-index: 1000 !important; }
+.k6-z-sticky             { z-index: 1020 !important; }
+.k6-z-fixed              { z-index: 1030 !important; }
+.k6-z-offcanvas-backdrop { z-index: 1040 !important; }
+.k6-z-offcanvas          { z-index: 1045 !important; }
+.k6-z-modal-backdrop     { z-index: 1050 !important; }
+.k6-z-modal              { z-index: 1055 !important; }
+.k6-z-popover            { z-index: 1070 !important; }
+.k6-z-tooltip            { z-index: 1080 !important; }
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ANIMATION */
 
@@ -182,16 +186,15 @@
 .k6-article h3,
 .k6-article h4,
 .k6-article h5,
-.k6-article h6             { margin-top: 1.5rem; margin-bottom: 1rem; line-height: 1.5; font-weight: bold; }
+.k6-article h6             { margin-top: 1.5rem; margin-bottom: 1rem; line-height: 1.5; font-weight: bold; position: relative; }
 .k6-article h1:first-child { margin-top: 0     ; }
 
-.k6-article h1:not( :first-child ),
-.k6-article h2:not( :first-child ),
-.k6-article h3:not( :first-child ),
-.k6-article h4:not( :first-child ),
-.k6-article h5:not( :first-child ),
-.k6-article h6:not( :first-child ) { margin-top: calc( -1     * var( --k6-article-top ) ); padding-top: var( --k6-article-top ); } /* https://css-tricks.com/hash-tag-links-padding */
-.k6-article .k6-hash-first-child   { position  : absolute; top: var( --k6-article-top )  ;                                       } /* 문서 최상단 가상 해쉬 링크 지점               */
+.k6-article h1 .k6-hash-target,
+.k6-article h2 .k6-hash-target,
+.k6-article h3 .k6-hash-target,
+.k6-article h4 .k6-hash-target,
+.k6-article h5 .k6-hash-target,
+.k6-article h6 .k6-hash-target { position: absolute; top: calc( -1 * var( --k6-article-top ) ); visibility: hidden; } /* https://css-tricks.com/hash-tag-links-padding */
 
 .k6-article li:not( :last-child ) { margin-bottom: .25rem; }
 
