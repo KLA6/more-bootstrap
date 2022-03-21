@@ -180,7 +180,7 @@
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ARTICLE */
 
 .k6-article h1,
-.k6-article h2 { padding-bottom: .5rem; border-bottom: 1px solid rgb( var( --bs-secondary-rgb ), .5 ); }
+.k6-article h2 { padding-bottom: .5rem; border-bottom: 1px solid rgb( var( --bs-secondary-rgb ), .25 ); }
 
 .k6-article h1,
 .k6-article h2,
