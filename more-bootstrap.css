@@ -73,9 +73,14 @@
 .k6-text-black-50-hover:hover  { color: var( --bs-black-50  ) !important; }
 .k6-text-white-50-hover:hover  { color: var( --bs-white-50  ) !important; }
 
+.k6-text-truncate-1 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; }
 .k6-text-truncate-2 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
 .k6-text-truncate-3 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
 .k6-text-truncate-4 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; }
+.k6-text-truncate-5 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; }
+.k6-text-truncate-6 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 6; }
+.k6-text-truncate-7 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 7; }
+.k6-text-truncate-8 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 8; }
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== CURSOR */
 
@@ -175,7 +180,7 @@
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ARTICLE */
 
 .k6-article h1,
-.k6-article h2 { padding-bottom: 8px; border-bottom: 1px solid var( --bs-secondary ); }
+.k6-article h2 { padding-bottom: .5rem; border-bottom: 1px solid rgb( var( --bs-secondary-rgb ), .5 ); }
 
 .k6-article h1,
 .k6-article h2,

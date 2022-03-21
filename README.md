@@ -3,25 +3,44 @@
 <br><br><br><br><br></p>
 
 # More Bootstrap by KLA6
-When using plain Bootstrap itself, you may need some additional classes, and this is a CSS library which implements the minimum of them.
+Add miscellaneous classes to Bootstrap.
 
 ## Type
 - CSS Library
 
 ## Install with CDN
 ```
-<script src="https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/more-bootstrap.min.css" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/more-bootstrap.min.css" crossorigin="anonymous" rel="stylesheet">
 ```
 - More Bootstrap doesn't include the original Bootstrap, so you need to call Bootstrap first, before calling More Bootstrap.
 - More Bootstrap doesn't use SASS or SCSS.
 
 ## Example
 
-### `...`
-#### ...
+### `.k6-mw-...`
+```
+.k6-mw-sm  { max-width:  576px; }
+.k6-mw-md  { max-width:  768px; }
+.k6-mw-lg  { max-width:  992px; }
+.k6-mw-xl  { max-width: 1200px; }
+.k6-mw-xxl { max-width: 1400px; }
+```
+### `.k6-text-truncate-...`
+```
+.k6-text-truncate-1 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; }
+.k6-text-truncate-2 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+.k6-text-truncate-3 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.k6-text-truncate-4 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; }
+.k6-text-truncate-5 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; }
+.k6-text-truncate-6 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 6; }
+.k6-text-truncate-7 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 7; }
+.k6-text-truncate-8 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 8; }
+```
+
+## Detail
+- https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/more-bootstrap.css
 
 ## Distribution
 - https://more-bootstrap.kla6.net
 - https://github.com/KLA6/more-bootstrap
 - https://www.jsdelivr.com/package/gh/KLA6/more-bootstrap
-- https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/more-bootstrap.css
