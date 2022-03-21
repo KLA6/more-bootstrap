@@ -197,7 +197,7 @@
 .k6-article h5 .k6-hash-target,
 .k6-article h6 .k6-hash-target { position: absolute; top: calc( -1 * var( --k6-article-top ) ); visibility: hidden; } /* https://css-tricks.com/hash-tag-links-padding */
 
-.k6-article li:not( :last-child ) { margin-bottom: .25rem; }
+.k6-article li:not( :last-child ) { margin-bottom: .5rem; }
 
 .k6-article img { max-width: 100%; }
 
