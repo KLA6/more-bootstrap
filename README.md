@@ -43,4 +43,4 @@ Add miscellaneous classes to Bootstrap.
 ## Distribution
 - https://more-bootstrap.kla6.net
 - https://github.com/KLA6/more-bootstrap
-- https://www.jsdelivr.com/package/gh/KLA6/more-bootstrap
+- https://jsdelivr.com/package/gh/KLA6/more-bootstrap
