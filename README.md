@@ -37,7 +37,7 @@ Add miscellaneous classes to Bootstrap.
 .k6-text-truncate-8 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 8; }
 ```
 
-## Detail
+## Code
 - https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/more-bootstrap.css
 
 ## Distribution
