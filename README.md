@@ -10,7 +10,7 @@ When using plain Bootstrap itself, you may need some additional classes, and thi
 
 ## Install with CDN
 ```
-<script src="https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/more-bootstrap.min.js" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/more-bootstrap.min.css" crossorigin="anonymous">
 ```
 - More Bootstrap doesn't include the original Bootstrap, so you need to call Bootstrap first, before calling More Bootstrap.
 - More Bootstrap doesn't use SASS or SCSS.
@@ -24,4 +24,4 @@ When using plain Bootstrap itself, you may need some additional classes, and thi
 - https://more-bootstrap.kla6.net
 - https://github.com/KLA6/more-bootstrap
 - https://www.jsdelivr.com/package/gh/KLA6/more-bootstrap
-- https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/more-bootstrap.js
+- https://cdn.jsdelivr.net/gh/KLA6/more-bootstrap/more-bootstrap.css
