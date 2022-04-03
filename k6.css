@@ -1,8 +1,6 @@
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ROOT */
 
 :root {
-  --k6-darker     : #111111            ;
-  --k6-article-top: calc( 4rem + 1rem );
 }
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== POSITION GRID */
@@ -33,25 +31,21 @@
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== WIDTH HEIGHT */
 
-.k6-w-1rem { width: 1rem !important; min-width: 1rem !important; min-width: 1rem !important; } .k6-w-1p5rem { width: 1.5rem !important; min-width: 1.5rem !important; min-width: 1.5rem !important; }
-.k6-w-2rem { width: 2rem !important; min-width: 2rem !important; min-width: 2rem !important; } .k6-w-2p5rem { width: 2.5rem !important; min-width: 2.5rem !important; min-width: 2.5rem !important; }
-.k6-w-3rem { width: 3rem !important; min-width: 3rem !important; min-width: 3rem !important; } .k6-w-3p5rem { width: 3.5rem !important; min-width: 3.5rem !important; min-width: 3.5rem !important; }
-.k6-w-4rem { width: 4rem !important; min-width: 4rem !important; min-width: 4rem !important; } .k6-w-4p5rem { width: 4.5rem !important; min-width: 4.5rem !important; min-width: 4.5rem !important; }
-.k6-w-5rem { width: 5rem !important; min-width: 5rem !important; min-width: 5rem !important; } .k6-w-5p5rem { width: 5.5rem !important; min-width: 5.5rem !important; min-width: 5.5rem !important; }
-.k6-w-6rem { width: 6rem !important; min-width: 6rem !important; min-width: 6rem !important; } .k6-w-5p5rem { width: 6.5rem !important; min-width: 6.5rem !important; min-width: 6.5rem !important; }
+.k6-w-1rem { width :  1rem; } .k6-iw-1rem { min-width :  1rem; } .k6-aw-1rem { max-width :  1rem; } .k6-w-1p5rem { width : 1.5rem; } .k6-iw-1p5rem { min-width : 1.5rem; } .k6-aw-1p5rem { max-width : 1.5rem; }
+.k6-w-2rem { width :  2rem; } .k6-iw-2rem { min-width :  2rem; } .k6-aw-2rem { max-width :  2rem; } .k6-w-2p5rem { width : 2.5rem; } .k6-iw-2p5rem { min-width : 2.5rem; } .k6-aw-2p5rem { max-width : 2.5rem; }
+.k6-w-3rem { width :  3rem; } .k6-iw-3rem { min-width :  3rem; } .k6-aw-3rem { max-width :  3rem; } .k6-w-3p5rem { width : 3.5rem; } .k6-iw-3p5rem { min-width : 3.5rem; } .k6-aw-3p5rem { max-width : 3.5rem; }
+.k6-w-4rem { width :  4rem; } .k6-iw-4rem { min-width :  4rem; } .k6-aw-4rem { max-width :  4rem; } .k6-w-4p5rem { width : 4.5rem; } .k6-iw-4p5rem { min-width : 4.5rem; } .k6-aw-4p5rem { max-width : 4.5rem; }
 
-.k6-h-1rem { height: 1rem !important; min-height: 1rem !important; min-height: 1rem !important; } .k6-h-1p5rem { height: 1.5rem !important; min-height: 1.5rem !important; min-height: 1.5rem !important; }
-.k6-h-2rem { height: 2rem !important; min-height: 2rem !important; min-height: 2rem !important; } .k6-h-2p5rem { height: 2.5rem !important; min-height: 2.5rem !important; min-height: 2.5rem !important; }
-.k6-h-3rem { height: 3rem !important; min-height: 3rem !important; min-height: 3rem !important; } .k6-h-3p5rem { height: 3.5rem !important; min-height: 3.5rem !important; min-height: 3.5rem !important; }
-.k6-h-4rem { height: 4rem !important; min-height: 4rem !important; min-height: 4rem !important; } .k6-h-4p5rem { height: 4.5rem !important; min-height: 4.5rem !important; min-height: 4.5rem !important; }
-.k6-h-5rem { height: 5rem !important; min-height: 5rem !important; min-height: 5rem !important; } .k6-h-5p5rem { height: 5.5rem !important; min-height: 5.5rem !important; min-height: 5.5rem !important; }
-.k6-h-6rem { height: 6rem !important; min-height: 6rem !important; min-height: 6rem !important; } .k6-h-5p5rem { height: 6.5rem !important; min-height: 6.5rem !important; min-height: 6.5rem !important; }
+.k6-h-1rem { height:  1rem; } .k6-ih-1rem { min-height:  1rem; } .k6-ah-1rem { max-height:  1rem; } .k6-h-1p5rem { height: 1.5rem; } .k6-ih-1p5rem { min-height: 1.5rem; } .k6-ah-1p5rem { max-height: 1.5rem; }
+.k6-h-2rem { height:  2rem; } .k6-ih-2rem { min-height:  2rem; } .k6-ah-2rem { max-height:  2rem; } .k6-h-2p5rem { height: 2.5rem; } .k6-ih-2p5rem { min-height: 2.5rem; } .k6-ah-2p5rem { max-height: 2.5rem; }
+.k6-h-3rem { height:  3rem; } .k6-ih-3rem { min-height:  3rem; } .k6-ah-3rem { max-height:  3rem; } .k6-h-3p5rem { height: 3.5rem; } .k6-ih-3p5rem { min-height: 3.5rem; } .k6-ah-3p5rem { max-height: 3.5rem; }
+.k6-h-4rem { height:  4rem; } .k6-ih-4rem { min-height:  4rem; } .k6-ah-4rem { max-height:  4rem; } .k6-h-4p5rem { height: 4.5rem; } .k6-ih-4p5rem { min-height: 4.5rem; } .k6-ah-4p5rem { max-height: 4.5rem; }
 
-.k6-mw-sm  { max-width:  576px; }
-.k6-mw-md  { max-width:  768px; }
-.k6-mw-lg  { max-width:  992px; }
-.k6-mw-xl  { max-width: 1200px; }
-.k6-mw-xxl { max-width: 1400px; }
+.k6-w-sm   { width:  576px; } .k6-iw-sm   { min-width:  576px; } .k6-aw-sm   { max-width:  576px; }
+.k6-w-md   { width:  768px; } .k6-iw-md   { min-width:  768px; } .k6-aw-md   { max-width:  768px; }
+.k6-w-lg   { width:  992px; } .k6-iw-lg   { min-width:  992px; } .k6-aw-lg   { max-width:  992px; }
+.k6-w-xl   { width: 1200px; } .k6-iw-xl   { min-width: 1200px; } .k6-aw-xl   { max-width: 1200px; }
+.k6-w-xxl  { width: 1400px; } .k6-iw-xxl  { min-width: 1400px; } .k6-aw-xxl  { max-width: 1400px; }
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== FONT TEXT LINK */
 
@@ -115,6 +109,9 @@
            .k6-btn-li::after                       { transform-origin: .5em 50%; transition: none; position: absolute; right: 0; width: 1.25em; line-height: 0; content: url( "data:image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%28   0,   0,   0, .1 %29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e" ); }
 .text-light.k6-btn-li::after                       {                                                                                                            content: url( "data:image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%28 255, 255, 255, .1 %29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e" ); }
 
+.k6-btn-group-dropdown                                       { z-index: 1000; display: inline-block; } /* 버튼 그룹 내 드롭다운 버튼 포커스 쉐도우 z-index 오류 수정 */
+.k6-btn-group-dropdown:focus-within + .k6-btn-group-dropdown { z-index:    0; }
+
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== DROPDOWN */
 
 @media( min-width:  576px ) { .k6-dropdown-toggle-sm  { white-space: nowrap; } .k6-dropdown-toggle-sm::after  { display: inline-block; margin-left: 0.255em; vertical-align: 0.255em; content: ""; border-top: 0.3em solid; border-right: 0.3em solid transparent; border-bottom: 0; border-left: 0.3em solid transparent; } }
@@ -141,29 +138,31 @@
 .k6-bg-info-hover:hover        { background-color: var( --bs-info        ) !important; } .k6-border-info      { border-color: var( --bs-info      ) !important; }
 .k6-bg-light-hover:hover       { background-color: var( --bs-light       ) !important; } .k6-border-light     { border-color: var( --bs-light     ) !important; }
 .k6-bg-dark-hover:hover        { background-color: var( --bs-dark        ) !important; } .k6-border-dark      { border-color: var( --bs-dark      ) !important; }
-.k6-bg-darker-hover:hover      { background-color: var( --k6-darker      ) !important; } .k6-border-darker    { border-color: var( --bs-darker    ) !important; } .k6-bg-darker { background-color: var( --k6-darker ); }
-.k6-bg-body-hover:hover        { background-color: var( --bs-body        ) !important; }
-.k6-bg-white-hover:hover       { background-color: var( --bs-white       ) !important; }
-.k6-bg-transparent-hover:hover { background-color: var( --bs-transparent ) !important; }
+.k6-bg-transparent-hover:hover { background-color: transparent             !important; }
 
 .k6-bg-h111 { background-color: #111; } .k6-bg-h222 { background-color: #222; } .k6-bg-h333 { background-color: #333; } .k6-bg-h444 { background-color: #444; } .k6-bg-h555 { background-color: #555; } .k6-bg-h666 { background-color: #666; } .k6-bg-h777 { background-color: #777; }
 .k6-bg-h888 { background-color: #888; } .k6-bg-h999 { background-color: #999; } .k6-bg-haaa { background-color: #AAA; } .k6-bg-hbbb { background-color: #BBB; } .k6-bg-hccc { background-color: #CCC; } .k6-bg-hddd { background-color: #DDD; } .k6-bg-heee { background-color: #EEE; }
 
 .k6-bg-img { background-size: cover; background-position: center; }
 
+.k6-rounded-tl { border-top-left-radius    : .25rem; } .k6-rounded-tl-0 { border-top-left-radius    : 0; }
+.k6-rounded-tr { border-top-right-radius   : .25rem; } .k6-rounded-tr-0 { border-top-right-radius   : 0; }
+.k6-rounded-bl { border-bottom-left-radius : .25rem; } .k6-rounded-bl-0 { border-bottom-left-radius : 0; }
+.k6-rounded-br { border-bottom-right-radius: .25rem; } .k6-rounded-br-0 { border-bottom-right-radius: 0; }
+
 .k6-outline-0 { outline: 0; }
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== Z-INDEX */
 
-.k6-z-dropdown           { z-index: 1000 !important; }
+.k6-z-dropdown           { z-index: 1000 !important; } .k6-z-n4 { z-index: -4 !important; }
 .k6-z-sticky             { z-index: 1020 !important; } .k6-z-n3 { z-index: -3 !important; }
 .k6-z-fixed              { z-index: 1030 !important; } .k6-z-n2 { z-index: -2 !important; }
 .k6-z-offcanvas-backdrop { z-index: 1040 !important; } .k6-z-n1 { z-index: -1 !important; }
 .k6-z-offcanvas          { z-index: 1045 !important; } .k6-z-0  { z-index:  0 !important; }
-.k6-z-modal-backdrop     { z-index: 1050 !important; } .k6-z-1  { z-index:  1 !important; }
+.k6-z-modal-backdrop     { z-index: 1050 !important; } .k6-z-1  { z-index:  1 !important; } .k6-z-1-focus:focus { z-index: 1 !important; }
 .k6-z-modal              { z-index: 1055 !important; } .k6-z-2  { z-index:  2 !important; }
 .k6-z-popover            { z-index: 1070 !important; } .k6-z-3  { z-index:  3 !important; }
-.k6-z-tooltip            { z-index: 1080 !important; }
+.k6-z-tooltip            { z-index: 1080 !important; } .k6-z-4  { z-index:  4 !important; }
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ANIMATION */
 
@@ -195,7 +194,7 @@
 .k6-article h3 .k6-hash-target,
 .k6-article h4 .k6-hash-target,
 .k6-article h5 .k6-hash-target,
-.k6-article h6 .k6-hash-target { position: absolute; top: calc( -1 * var( --k6-article-top ) ); visibility: hidden; } /* https://css-tricks.com/hash-tag-links-padding */
+.k6-article h6 .k6-hash-target { position: absolute; top: calc( -1 * 5rem ); visibility: hidden; } /* https://css-tricks.com/hash-tag-links-padding */
 
 .k6-article li:not( :last-child ) { margin-bottom: .5rem; }
 
