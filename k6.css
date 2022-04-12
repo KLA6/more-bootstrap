@@ -11,13 +11,18 @@
 @media( min-width: 1200px ) { .k6-position-relative-xl  { position: relative !important; } .k6-sticky-top-xl  { position: -webkit-sticky; position: sticky; top: 0; z-index: 1020; } .k6-align-self-start-xl  { align-self: start; } }
 @media( min-width: 1400px ) { .k6-position-relative-xxl { position: relative !important; } .k6-sticky-top-xxl { position: -webkit-sticky; position: sticky; top: 0; z-index: 1020; } .k6-align-self-start-xxl { align-self: start; } }
 
-/* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== DISPLAY VISIBILITY */
+/* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== DISPLAY VISIBILITY OVERFLOW */
 
 @media( min-width:  576px ) { .k6-visible-sm  { visibility: visible !important; } .k6-invisible-sm  { visibility: hidden !important; } }
 @media( min-width:  768px ) { .k6-visible-md  { visibility: visible !important; } .k6-invisible-md  { visibility: hidden !important; } }
 @media( min-width:  992px ) { .k6-visible-lg  { visibility: visible !important; } .k6-invisible-lg  { visibility: hidden !important; } }
 @media( min-width: 1200px ) { .k6-visible-xl  { visibility: visible !important; } .k6-invisible-xl  { visibility: hidden !important; } }
 @media( min-width: 1400px ) { .k6-visible-xxl { visibility: visible !important; } .k6-invisible-xxl { visibility: hidden !important; } }
+
+.k6-overflow-x-auto    { overflow-x: auto   ; } .k6-overflow-y-auto    { overflow-y: auto   ; }
+.k6-overflow-x-hidden  { overflow-x: hidden ; } .k6-overflow-y-hidden  { overflow-y: hidden ; }
+.k6-overflow-x-visible { overflow-x: visible; } .k6-overflow-y-visible { overflow-y: visible; }
+.k6-overflow-x-scroll  { overflow-x: scroll ; } .k6-overflow-y-scroll  { overflow-y: scroll ; }
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== MARGIN PADDING */
 
@@ -41,6 +46,10 @@
 .k6-h-3rem { height:  3rem; } .k6-ih-3rem { min-height:  3rem; } .k6-ah-3rem { max-height:  3rem; } .k6-h-3p5rem { height: 3.5rem; } .k6-ih-3p5rem { min-height: 3.5rem; } .k6-ah-3p5rem { max-height: 3.5rem; }
 .k6-h-4rem { height:  4rem; } .k6-ih-4rem { min-height:  4rem; } .k6-ah-4rem { max-height:  4rem; } .k6-h-4p5rem { height: 4.5rem; } .k6-ih-4p5rem { min-height: 4.5rem; } .k6-ah-4p5rem { max-height: 4.5rem; }
 
+.k6-w-25vw { width :  25vw; } .k6-iw-25vw { min-width :  25vw; } .k6-aw-25vw { max-width :  25vw; } .k6-h-25vh   { height:   25vw; } .k6-ih-25vh   { min-height :  25vw; } .k6-ah-25vh   { max-height :  25vw; }
+.k6-w-50vw { width :  50vw; } .k6-iw-50vw { min-width :  50vw; } .k6-aw-50vw { max-width :  50vw; } .k6-h-50vh   { height:   50vw; } .k6-ih-50vh   { min-height :  50vw; } .k6-ah-50vh   { max-height :  50vw; }
+.k6-w-75vw { width :  75vw; } .k6-iw-75vw { min-width :  75vw; } .k6-aw-75vw { max-width :  75vw; } .k6-h-75vh   { height:   75vw; } .k6-ih-75vh   { min-height :  75vw; } .k6-ah-75vh   { max-height :  75vw; }
+
 .k6-w-sm   { width:  576px; } .k6-iw-sm   { min-width:  576px; } .k6-aw-sm   { max-width:  576px; }
 .k6-w-md   { width:  768px; } .k6-iw-md   { min-width:  768px; } .k6-aw-md   { max-width:  768px; }
 .k6-w-lg   { width:  992px; } .k6-iw-lg   { min-width:  992px; } .k6-aw-lg   { max-width:  992px; }
@@ -50,7 +59,8 @@
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== FONT TEXT LINK */
 
 .k6-fs-8px    { font-size:   8px ; } .k6-fs-9px  { font-size:   9px ; } .k6-fs-10px   { font-size:  10px ; } .k6-fs-11px { font-size: 11px ; }
-.k6-fs-12px   { font-size:  12px ; } .k6-fs-13px { font-size:  13px ; } .k6-fs-14px   { font-size:  14px ; } .k6-fs-15px { font-size: 15px ; } .k6-fs-16px { font-size: 16px; }
+.k6-fs-12px   { font-size:  12px ; } .k6-fs-13px { font-size:  13px ; } .k6-fs-14px   { font-size:  14px ; } .k6-fs-15px { font-size: 15px ; }
+.k6-fs-16px   { font-size:  16px ; } .k6-fs-17px { font-size:  17px;  } .k6-fs-18px   { font-size:  18px ; } .k6-fs-19px { font-size: 19px;  }
 .k6-fs-0p5rem { font-size:  .5rem; } .k6-fs-1rem { font-size:   1rem; } .k6-fs-1p5rem { font-size: 1.5rem; } .k6-fs-2rem { font-size:  2rem; }
 
 .k6-text-primary-hover:hover   { color: var( --bs-primary   ) !important; } .k6-link-primary   { color: rgba( var( --bs-primary-rgb   ), 1 ) !important; } .k6-link-primary:hover   { color: rgba( var( --bs-primary-rgb   ), .5 ) !important; }
@@ -75,6 +85,14 @@
 .k6-text-truncate-6 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 6; }
 .k6-text-truncate-7 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 7; }
 .k6-text-truncate-8 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 8; }
+
+/* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== LIST */
+
+.k6-ul        { padding-left:   0   ; list-style:   none; } .k6-ul ul     { padding-left: 0   ; list-style:   none; }
+.k6-ul-2-0 li { margin-left : .25rem; margin-top:   0   ; } .k6-ul-3-0 li { margin-left : 1rem; margin-top:   0   ; } .k6-ul-4-0  li { margin-left: 1.5rem; margin-top:   0   ; }
+.k6-ul-2-1 li { margin-left : .25rem; margin-top: .25rem; } .k6-ul-3-1 li { margin-left : 1rem; margin-top: .25rem; } .k6-ul-4-1  li { margin-left: 1.5rem; margin-top: .25rem; }
+.k6-ul-2-2 li { margin-left : .25rem; margin-top:  .5rem; } .k6-ul-3-2 li { margin-left : 1rem; margin-top:  .5rem; } .k6-ul-4-2  li { margin-left: 1.5rem; margin-top:  .5rem; }
+.k6-ul-2-3 li { margin-left : .25rem; margin-top:   1rem; } .k6-ul-3-3 li { margin-left : 1rem; margin-top:   1rem; } .k6-ul-4-3  li { margin-left: 1.5rem; margin-top:   1rem; }
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== CURSOR */
 
@@ -130,15 +148,15 @@
 
 /* ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== BACKGROUND BORDER OUTLINE */
 
-.k6-bg-primary-hover:hover     { background-color: var( --bs-primary     ) !important; } .k6-border-primary   { border-color: var( --bs-primary   ) !important; }
-.k6-bg-secondary-hover:hover   { background-color: var( --bs-secondary   ) !important; } .k6-border-secondary { border-color: var( --bs-secondary ) !important; }
-.k6-bg-success-hover:hover     { background-color: var( --bs-success     ) !important; } .k6-border-success   { border-color: var( --bs-success   ) !important; }
-.k6-bg-danger-hover:hover      { background-color: var( --bs-danger      ) !important; } .k6-border-danger    { border-color: var( --bs-danger    ) !important; }
-.k6-bg-warning-hover:hover     { background-color: var( --bs-warning     ) !important; } .k6-border-warning   { border-color: var( --bs-warning   ) !important; }
-.k6-bg-info-hover:hover        { background-color: var( --bs-info        ) !important; } .k6-border-info      { border-color: var( --bs-info      ) !important; }
-.k6-bg-light-hover:hover       { background-color: var( --bs-light       ) !important; } .k6-border-light     { border-color: var( --bs-light     ) !important; }
-.k6-bg-dark-hover:hover        { background-color: var( --bs-dark        ) !important; } .k6-border-dark      { border-color: var( --bs-dark      ) !important; }
-.k6-bg-transparent-hover:hover { background-color: transparent             !important; }
+.k6-bg-primary-hover:hover     { background-color: var( --bs-primary     ) !important; } .k6-border-primary   { border-color: var( --bs-primary   ) !important; } .k6-border-gray-100 { border-color: var( --bs-gray-100 ) !important; }
+.k6-bg-secondary-hover:hover   { background-color: var( --bs-secondary   ) !important; } .k6-border-secondary { border-color: var( --bs-secondary ) !important; } .k6-border-gray-200 { border-color: var( --bs-gray-200 ) !important; }
+.k6-bg-success-hover:hover     { background-color: var( --bs-success     ) !important; } .k6-border-success   { border-color: var( --bs-success   ) !important; } .k6-border-gray-300 { border-color: var( --bs-gray-300 ) !important; }
+.k6-bg-danger-hover:hover      { background-color: var( --bs-danger      ) !important; } .k6-border-danger    { border-color: var( --bs-danger    ) !important; } .k6-border-gray-400 { border-color: var( --bs-gray-400 ) !important; }
+.k6-bg-warning-hover:hover     { background-color: var( --bs-warning     ) !important; } .k6-border-warning   { border-color: var( --bs-warning   ) !important; } .k6-border-gray-500 { border-color: var( --bs-gray-500 ) !important; }
+.k6-bg-info-hover:hover        { background-color: var( --bs-info        ) !important; } .k6-border-info      { border-color: var( --bs-info      ) !important; } .k6-border-gray-600 { border-color: var( --bs-gray-600 ) !important; }
+.k6-bg-light-hover:hover       { background-color: var( --bs-light       ) !important; } .k6-border-light     { border-color: var( --bs-light     ) !important; } .k6-border-gray-700 { border-color: var( --bs-gray-700 ) !important; }
+.k6-bg-dark-hover:hover        { background-color: var( --bs-dark        ) !important; } .k6-border-dark      { border-color: var( --bs-dark      ) !important; } .k6-border-gray-800 { border-color: var( --bs-gray-800 ) !important; }
+.k6-bg-transparent-hover:hover { background-color: transparent             !important; }                                                                          .k6-border-gray-900 { border-color: var( --bs-gray-900 ) !important; }
 
 .k6-bg-h111 { background-color: #111; } .k6-bg-h222 { background-color: #222; } .k6-bg-h333 { background-color: #333; } .k6-bg-h444 { background-color: #444; } .k6-bg-h555 { background-color: #555; } .k6-bg-h666 { background-color: #666; } .k6-bg-h777 { background-color: #777; }
 .k6-bg-h888 { background-color: #888; } .k6-bg-h999 { background-color: #999; } .k6-bg-haaa { background-color: #AAA; } .k6-bg-hbbb { background-color: #BBB; } .k6-bg-hccc { background-color: #CCC; } .k6-bg-hddd { background-color: #DDD; } .k6-bg-heee { background-color: #EEE; }
